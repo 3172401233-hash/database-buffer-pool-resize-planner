@@ -1,0 +1,14 @@
+{
+  "name": "database-buffer-pool-resize-planner",
+  "version": "1.0.0",
+  "description": "在线数据库缓冲池扩缩容分批规划器：脏页预算、脏页检查点、内存风险与回退点",
+  "type": "module",
+  "main": "src/index.js",
+  "engines": {
+    "node": ">=24.16.0"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT"
+}
